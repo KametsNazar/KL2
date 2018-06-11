@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Raleway:300,400,600,700,900');
+@import './default.css';
+@import './components/_header';
+@import './components/_personally';
+@import './components/_sliderOne';
+@import './components/_sliderTwo';
+@import './components/_footer';
+
+
+.findout {
+	background: url('../img/layer-18.jpg') 50% 50% no-repeat;
+	background-size: cover;
+	padding: 124px 0;
+	text-align: center;
+
+	h1 {
+		font-size: 5rem;
+		color: #fd5c08;
+		text-transform: uppercase;
+		margin: 0;
+		font-weight: 900;
+	}
+	h3 {
+		font-size: 2.125rem;
+		color: #3f3e41;
+		text-transform: uppercase;
+		margin: 0;
+		font-weight: 400;
+	}
+}
+
+.map {
+	height: 600px;
+}
